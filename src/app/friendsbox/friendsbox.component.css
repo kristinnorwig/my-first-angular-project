@@ -1,0 +1,35 @@
+.photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.friends-btn {
+  background-color: var(--background-color);
+  border: none;
+}
+
+.friends-btn:hover {
+  cursor: pointer;
+}
+
+.friends-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.friends-name {
+  background-color: var(--header-background-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-radius: 1rem;
+  position: relative;
+  top: -0.5rem;
+  font-size: 1rem;
+}

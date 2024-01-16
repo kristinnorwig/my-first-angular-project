@@ -1,0 +1,16 @@
+.photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 1rem;
+}
+
+.proposal {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-background-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}

@@ -1,0 +1,8 @@
+.rabbitlist {
+  margin: 2rem;
+}
+
+.main-layout {
+  display: flex;
+  justify-content: center;
+}

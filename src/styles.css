@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: rgb(40, 40, 40);
+  --background-color: rgb(195, 219, 196);
+  --header-background-color: white;
+  --highlight-color: green;
+}
+
+html {
+  font-family: sans-serif;
+  color: var(--text-color);
+  font-size: 19px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+h1 {
+  margin: 0;
+}
+
+.btn {
+  background-color: var(--background-color);
+  border: 0.2rem solid var(--background-color);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  border: 0.2rem solid var(--highlight-color);
+  cursor: pointer;
+}
+
+.btn:focus {
+  border: 0.2rem solid var(--highlight-color);
+}
+
+.btn:active {
+  border: 0.2rem solid var(--highlight-color);
+}
+
+.svg-btn {
+  height: 2rem;
+}
